@@ -1,3 +1,3 @@
-#Loopstadio website
+# Loopstadio website
 
 This is a practice project.
