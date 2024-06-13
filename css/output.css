@@ -706,22 +706,6 @@ h3 {
   margin-top: 1.5rem;
 }
 
-.mt-20 {
-  margin-top: 5rem;
-}
-
-.mt-60 {
-  margin-top: 15rem;
-}
-
-.mt-40 {
-  margin-top: 10rem;
-}
-
-.mt-36 {
-  margin-top: 9rem;
-}
-
 .flex {
   display: flex;
 }
@@ -732,6 +716,10 @@ h3 {
 
 .hidden {
   display: none;
+}
+
+.h-10 {
+  height: 2.5rem;
 }
 
 .w-52 {
@@ -764,6 +752,14 @@ h3 {
 
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -953,6 +949,11 @@ h3 {
 .group:hover .group-hover\:border-blue-50 {
   --tw-border-opacity: 1;
   border-color: rgb(239 246 255 / var(--tw-border-opacity));
+}
+
+.group:hover .group-hover\:border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .group:hover .group-hover\:from-gray-300 {
