@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  h3 {
+    @apply max-w-lg mx-auto text-center text-4xl uppercase mt-10 mb-5 md:mt-0 md:text-left md:text-5xl md:mx-0;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-12 py-3 border-2 border-black font-alata font-bold uppercase tracking-widest hover:bg-black hover:text-white;
+  }
+}
+
 #hero {
   background-image: url(../images/mobile/image-hero.jpg);
   background-reapet: no-reapet;
