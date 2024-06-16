@@ -9,13 +9,14 @@
       href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
       rel="stylesheet"
     />
+    <script src="scripts/script.js" defer></script>
     <link href="css/output.css" rel="stylesheet" />
     <title>Loopstudios</title>
   </head>
   <body>
     <!-- Hero section -->
     <section id="hero">
-      <div class="container max-w-6xl mx-auto px-6 py-12 text-white">
+      <div class="container relative max-w-6xl mx-auto px-6 py-12 text-white">
         <nav class="flex justify-between items-center font-bold font-alata">
           <img src="images/logo.svg" alt="logo" />
           <div class="hidden md:flex md:space-x-8">
@@ -48,11 +49,31 @@
               ></div>
             </div>
           </div>
+          <!-- hamburger button -->
+          <button
+            id="menu-btn"
+            type="button"
+            class="z-40 block hamburger md:hidden focus:outline-0"
+          >
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
         </nav>
         <div
           class="max-w-lg mt-32 mb-32 p-4 text-4xl font-sans border-2 border-white md:p-10 md:text-6xl"
         >
           IMPRESSIVE EXPERIENCES THAT DELIVER
+        </div>
+        <div
+          id="mob-menu"
+          class="hidden flex-col space-y-3 absolute top-0 left-0 right-0 min-h-screen bg-black pt-40 pl-12"
+        >
+          <a href="#" class="uppercase text-lg hover:text-pink-600">About</a>
+          <a href="#" class="uppercase text-lg hover:text-pink-600">Careers</a>
+          <a href="#" class="uppercase text-lg hover:text-pink-600">Events</a>
+          <a href="#" class="uppercase text-lg hover:text-pink-600">Products</a>
+          <a href="#" class="uppercase text-lg hover:text-pink-600">Support</a>
         </div>
       </div>
     </section>
